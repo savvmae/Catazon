@@ -21,4 +21,10 @@ export default class CartContainer extends Container {
     });
   };
 
+  updateValue = (value, id) => {
+    console.log(value);
+    const cat = this.state.items.find(item => item.id === id);
+    cat.cartQuantity = value;
+    console.log(cat);
+  };
 }

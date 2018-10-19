@@ -12,7 +12,7 @@
 
     &--grid {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-evenly;
       flex-wrap: wrap;
     }
   }
@@ -29,7 +29,7 @@
     &--grid {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-around;
+      justify-content: space-evenly;
     }
   }
 
@@ -40,7 +40,7 @@
       padding-bottom: 1rem;
       text-align: center;
       margin-bottom: 1rem;
-      width: calc(50% - 20px);
+      width: calc(50% - 100px);
 
       &--cart {
         border: none;
@@ -50,6 +50,10 @@
       h5 {
         color: #8e44ad;
         font-size: 22px;
+      }
+
+      img {
+        width: 225px;
       }
 
       button {
@@ -89,6 +93,59 @@
         &:focus {
           outline: none;
         }
+      }
+
+      input[type="button"] {
+        -webkit-appearance: button;
+        cursor: pointer;
+      }
+      
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+      }
+      
+      .input-group {
+        clear: both;
+        margin: 15px 0;
+        position: relative;
+      }
+      
+      .input-group input[type='button'] {
+        background-color: #eeeeee;
+        min-width: 38px;
+        width: auto;
+        transition: all 300ms ease;
+      }
+      
+      .input-group .button-minus,
+      .input-group .button-plus {
+        font-weight: bold;
+        height: 38px;
+        padding: 0;
+        width: 38px;
+        position: relative;
+      }
+      
+      .input-group .quantity-field {
+        position: relative;
+        height: 38px;
+        left: -6px;
+        text-align: center;
+        width: 62px;
+        display: inline-block;
+        font-size: 13px;
+        margin: 0 0 5px;
+        resize: vertical;
+      }
+      
+      .button-plus {
+        left: -13px;
+      }
+      
+      input[type="number"] {
+        -moz-appearance: textfield;
+        -webkit-appearance: none;
       }
     }
   }

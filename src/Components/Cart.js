@@ -24,7 +24,7 @@ export default class Cart extends React.Component {
         <div className="cat-wrapper cat-wrapper--cart" key={item.id}>
           <img src={item.img} alt="cat pic" />
           <h5>{item.name} </h5>
-          <p>${item.price} </p>
+          <p>{item.cartQuantity} x ${item.price} = ${item.price * item.cartQuantity} </p>
           <button onClick={() => container.removeItem(item.id)}>
           Remove Item From Cart
           </button>

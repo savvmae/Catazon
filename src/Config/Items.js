@@ -1,6 +1,7 @@
 const Cats = [
     {
         id: 1,
+        cartQuantity: 0,
         name: 'Tilly',
         description: 'Cute, but fiesty. Knows tricks.',
         price: 110.00,
@@ -8,6 +9,7 @@ const Cats = [
     },
     {
         id: 2,
+        cartQuantity: 0,
         name: 'Meredith',
         description: 'Has an attitude. Thinks she\'s more than a housecat.',
         price: 57.90,
@@ -15,6 +17,7 @@ const Cats = [
     },
     {
         id: 3,
+        cartQuantity: 0,
         name: 'Pepper',
         description: 'Constantly surprising himself.',
         price: 987.00,
@@ -22,6 +25,7 @@ const Cats = [
     },
     {
         id: 4,
+        cartQuantity: 0,
         name: 'Wilson',
         description: 'Has no idea what\'s going on.',
         price: 3.00,
@@ -29,6 +33,7 @@ const Cats = [
     },
     {
         id: 5,
+        cartQuantity: 0,
         name: 'Burt',
         description: 'DO NOT TOUCH!',
         price: 999.00,
@@ -36,6 +41,7 @@ const Cats = [
     },
     {
         id: 6,
+        cartQuantity: 0,
         name: 'Roger',
         description: 'Sleeps a lot. Needs tons of cuddles.',
         price: 550.22,
@@ -43,6 +49,7 @@ const Cats = [
     },
     {
         id: 7,
+        cartQuantity: 0,
         name: 'Annabelle',
         description: 'Is a wizard. Can probably help you find Middle Earth.',
         price: 777.77,
@@ -50,6 +57,7 @@ const Cats = [
     },
     {
         id: 8,
+        cartQuantity: 0,
         name: 'Griffin',
         description: 'Knows his superiority and is disappointed in you',
         price: 50.21,

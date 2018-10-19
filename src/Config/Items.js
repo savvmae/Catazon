@@ -48,6 +48,13 @@ const Cats = [
         price: 777.77,
         img: './images/cat-7.jpg'
     },
+    {
+        id: 8,
+        name: 'Griffin',
+        description: 'Knows his superiority and is disappointed in you',
+        price: 50.21,
+        img: './images/cat-8.jpg'
+    },
 ];
 
 export default Cats;

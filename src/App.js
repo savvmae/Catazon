@@ -4,7 +4,7 @@ import { Provider } from 'unstated';
 import Items from './Components/Items';
 import Cart from './Components/Cart';
 
-import './App.css';
+import './App.scss';
 
 class App extends Component {
   render() {
